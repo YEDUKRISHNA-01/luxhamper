@@ -1,0 +1,195 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+background-color: black;
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+color: rgb(248, 248, 248);
+height: 100vh;
+}
+
+ul{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+li{
+    list-style: none;
+    font-size: 1.37rem;
+    border-radius: 0.25rem;
+    padding: 0.312rem;
+    display: block;
+    color: rgb(246, 239, 239);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+#icon{
+    display: none;
+}
+
+#iconStart{
+    display: none;
+}
+
+li:hover{
+    background-color: rgb(224, 28, 28);
+    transform: scale(1.05);
+}
+
+#Hero {
+  width: 100%;
+  min-height: 100vh; 
+  background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://cdn.pixabay.com/photo/2023/02/20/09/08/flowers-7801751_1280.jpg');
+  opacity: 0.8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  border: 0.0625rem solid white;
+}
+
+
+.box{
+    border-radius: 0.5rem;
+    margin: 1.25rem auto;
+    width: 80%;
+    height: auto;
+    transition: 0.2s ease-in;
+}
+
+.box:hover{
+    font-size: 1rem;
+}
+.colorchange{
+    font-size: 3.12rem;
+    text-decoration: underline;
+}
+
+
+
+.container h1{
+font-size: 2.5rem;
+font-weight:bold;
+margin-top: 4vh;
+padding: 0.625rem;
+color: gold;
+}
+
+
+.box h3{
+    font-style: italic;
+}
+
+h1{
+    opacity:0;
+    transform: translateY(1.25rem);
+    animation: slideUpFade 0.6s ease-out forwards;
+    animation-delay: 1s;
+}
+
+@keyframes slideUpFade{
+    20%{
+        opacity: 0.2;
+        transform:translateY(15px);
+    }
+
+    40%{
+        opacity: 0.4;
+        transform:translateY(10);
+    }
+    80%{
+        opacity: 0.8;
+        transform:translateY(5px);
+    }
+
+    100%{
+        opacity: 1;
+        transform:translateY(0);
+    }
+}
+
+
+ .contactbtn{
+    display: block;
+    padding:0.375rem;
+    background:linear-gradient(to top, red,orange,rgb(255, 163, 33),gold); 
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 0.25rem;
+    margin: 0.62rem;
+    margin-left: 10%;
+    transition: 0.2s ease-in;
+    border: 0.062rem solid white;
+    cursor: pointer;
+}
+
+.contactbtn:hover{
+    transform: scale(1.05);
+    background-color: rgb(45, 45, 217);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 768px){
+    #Hero {
+  width: 100%;
+  min-height: 100vh; 
+  background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://cdn.pixabay.com/photo/2023/02/20/09/08/flowers-7801751_1280.jpg');
+  opacity: 0.8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+ul{
+    display:none ;
+}
+
+#iconStart{
+display:block;
+width:auto;
+position: fixed;
+top:0.625rem;
+left:0.312rem;
+background-color: orange;
+padding: 0.0625rem 0.1875rem;
+cursor: pointer;
+border-radius: 0.125rem;
+font-size: 1rem;
+border: 0.0625rem solid wheat;
+transition: 0.3 ease-in;
+}
+
+li{
+    font-size: 16px;
+}
+
+.container h1{
+font-size: 1.37rem;
+text-align: center;
+margin-top: 2.5rem;
+font-style: normal;
+font-weight: bold;
+color: gold;
+}
+
+.box h3{
+    font-size: 1rem;
+    font-style: italic;
+}
+}
+
+#iconStart:hover{
+    background-color: brown;
+    transform: scale(1.05);
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:black;
+        }
+
+        .contact-card {
+            background: #fff;
+            padding: 2.5rem;
+            width: 21.87rem;
+            border-radius: 0.937rem;
+            box-shadow: 0 1.25rem 2.5rem rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        .contact-card h1 {
+            margin-bottom: 0.625rem;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .contact-card p {
+            color: #666;
+            margin-bottom: 1.87rem;
+            font-size: 0.875rem;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 0.937rem;
+        }
+
+        .info-box {
+            display: flex;
+            align-items: center;
+            padding: 0.75rem 0.937rem;
+            border-radius: 0.625rem;
+            background: #f4f6ff;
+            transition: 0.3s;
+        }
+
+        .info-box:hover {
+            background: #e3e7ff;
+            transform: translateY(-3px);
+        }
+
+        .icon {
+            width: 2.5rem;
+            height: 2.5rem;
+            background: #667eea;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.125rem;
+            margin-right: 0.937rem;
+        }
+
+        .text {
+            text-align: left;
+        }
+
+        .text span {
+            display: block;
+            font-size: 0.75rem;
+            color: #888;
+        }
+
+        .text a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .text a:hover {
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+
+<div class="contact-card">
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you</p>
+
+    <div class="contact-info">
+
+        <div class="info-box">
+            <div class="icon">📱</div>
+            <div class="text">
+                <span>WhatsApp</span>
+                <a href="https://wa.me/911234567890">+918848939537</a>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <div class="icon">📸</div>
+            <div class="text">
+                <span>Instagram</span>
+                <a href="https://www.instagram.com/_luxehamper?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">@LUXEHAMPER</a>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <div class="icon">✉️</div>
+            <div class="text">
+                <span>Email</span>
+                <a href="mailto:example@email.com">aleenaregi@gmail.com</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

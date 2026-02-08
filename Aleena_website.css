@@ -1,0 +1,396 @@
+*{
+margin: 0px;
+box-sizing: border-box;
+padding: 0px;
+}
+
+html{
+    font-size: 1rem;
+}
+
+body{
+    font-style:italic;
+    background-color: black;
+    color: whitesmoke;
+    overflow:auto;
+    overflow: auto;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 1.25rem;
+    animation: rotate_title 3s linear infinite;
+    animation-delay: 0.5s;
+    color: #ebf70a;
+}
+
+@keyframes rotate_title{
+    0%{
+        
+        color: rgb(226, 33, 33);
+    }
+     25%{
+        
+        color: rgb(165, 223, 31);
+    }
+
+    50%{
+        
+        color: rgb(222, 162, 52);
+    }
+
+    100%{
+       
+        color: rgb(233, 233, 38);
+    }
+}
+
+h2{
+    font-size: 2.1rem;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 0.62rem;
+}
+
+#Home{
+position: relative;
+width: 100vh;
+overflow: hidden;
+
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h3{
+ font-size: 1.2rem;
+ text-align: center;
+ margin-top: 0.5rem;
+}
+
+h3 li{
+    list-style: disc;
+}
+
+#Menu{
+    margin-top: 0.6rem;
+}
+
+ ul{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+ .Select{
+    font-style: normal;
+    font-size: 1.2rem;
+    margin-top: 0.31rem;
+    background-color: rgb(0, 0, 0);
+    list-style: none;
+    padding-left:1.3rem;
+    padding-right: 1.3rem;
+    padding-top:0.25rem;
+    padding-bottom: 0.25rem;
+    border-radius:0.187rem;
+}
+
+ .Closebtn{
+        display: none;       
+    }
+
+.Select{
+    transition: 0.1s ease;
+    display: block;
+}
+
+#Menu ul li:hover{
+    background-color: rgb(236, 19, 19);
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+p{
+    margin-top: 1.56rem;
+    margin-left: 0.625rem;
+    font-size:1.125rem;
+}
+
+#images-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.56rem;
+    flex-wrap: wrap;
+    margin-left:0.62rem;
+    margin-top: 0.87rem;
+}
+
+#images-1 img{
+    width:21.8rem;
+    height: auto;
+    border-radius: 0.5rem;
+    transition: 0.2s ease;
+}
+
+#images-1 img:hover{
+    transform: scale(1.05);
+}
+
+#Openmenu{
+display: none;
+}
+
+#Albums{
+    display: flex;
+    gap:0.75rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.56rem;
+    flex-wrap: wrap;
+    margin-left: 0.62rem;
+    transition: 0.3s ease;
+}
+
+#Albums img{
+width:21.8rem;
+height: auto;
+border-radius:0.5rem;
+}
+
+#Albums img:hover{
+    transform: scale(1.05);
+}
+
+#A3{
+    display: flex;
+    gap:0.75rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.56rem;
+    flex-wrap: wrap;
+    margin-left: 0.62rem;
+    transition: 0.3s ease;
+}
+
+#A3 img{
+width:21.8rem;
+height: auto;
+border-radius: 0.5rem;
+}
+
+#A3 img:hover{
+     transform: scale(1.05);
+}
+
+#A4{
+    display: flex;
+    gap:0.75rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.56;
+    flex-wrap: wrap;
+    margin-left: 0.62rem;
+    transition: 0.3s ease;
+}
+
+#A4 img{
+width:21.8rem;
+height: auto;
+border-radius: 0.5rem;
+}
+
+#A4 img:hover{
+     transform: scale(1.05);
+}
+
+#A5{
+    display: flex;
+    gap:0.75rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.56rem;
+    flex-wrap: wrap;
+    margin-left: 0.62rem;
+    transition: 0.3s ease;
+}
+
+#A5 img{
+width:21.8rem;
+height: auto;
+border-radius: 0.5rem;
+}
+
+#A5 img:hover{
+     transform: scale(1.05);
+}
+
+#Mini_fr{
+    display: flex;
+    gap:0.75rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.56rem;
+    flex-wrap: wrap;
+    margin-left: 0.62rem;
+    transition: 0.3s ease;
+}
+
+#Mini_fr img{
+width:21.8rem;
+height: auto;
+border-radius: 0.5rem;
+}
+
+#Mini_fr img:hover{
+     transform: scale(1.05);
+}
+
+#Sketch_Wal{
+    display: flex;
+    gap:0.75rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.56rem;
+    flex-wrap: wrap;
+    margin-left: 0.62rem;
+    transition: 0.3s ease;
+}
+
+#Sketch_Wal img{
+width:21.8rem;
+height: auto;
+border-radius: 0.5rem;
+}
+
+#Sketch_Wal img:hover{
+     transform: scale(1.05);
+}
+
+#Album-2{
+    display: flex;
+    gap:0.75rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.56rem;
+    flex-wrap: wrap;
+    margin-left: 0.62rem;
+    transition: 0.3s ease;
+}
+
+#Album-2 img{
+width:21.8rem;
+height: auto;
+border-radius: 0.5rem;
+}
+
+#Album-2 img:hover{
+     transform: scale(1.05);
+}
+
+#Mr_Pc{
+    display: flex;
+    gap:0.75rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.56rem;
+    flex-wrap: wrap;
+    margin-left: 0.62rem;
+    transition: 0.3s ease;
+}
+
+#Mr_Pc img{
+width:21.8rem;
+height: auto;
+border-radius: 0.5rem;
+}
+
+#Mr_Pc img:hover{
+     transform: scale(1.05);
+}
+
+button{
+    width: 6.25rem;   /* adjust as needed */
+    height: 2.5rem;
+    padding: 0;     /* remove padding if you want exact size */
+    font-size: 1rem;
+    display:block;
+    transition: 0.1s ease-in-out;
+    margin-top: 0.93rem;
+    margin-bottom: 0.93rem;
+    margin-right: auto;
+    margin-left: 1.25rem;
+    background-color: rgb(241, 114, 41);
+    cursor: pointer;
+    border-radius: 0.25rem;
+}
+
+button:hover{
+    transform: scale(1.05);
+    background: #e4eb13;
+}
+@media(max-width:768px){
+    ul{
+        display: none;
+       flex-direction: column;
+       position: fixed;
+       left:0;
+       top:0.625rem;
+       justify-content: space-evenly;
+       height: 100vh;
+       width: 20vw;
+       background-color: black;
+    }
+
+    .Select{
+    width: 100%;
+    display: block;
+    font-size: 1rem;
+    text-align: center; 
+    }
+    .Closebtn{
+        display: block;
+        width: 100%;
+        font-size: 1rem;
+        font-style: normal;
+        text-align: center;   
+        padding: 0.5rem;
+        }    
+        p{
+    margin-top: 1.50rem;
+    margin-left: 0.622rem;
+    font-size:1rem;
+   }
+
+   h2{
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 0.60rem;
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 1.25rem;
+    animation: rotate_title 3s linear infinite;
+    animation-delay: 0.5s;
+    color: #ebf70a;
+}
+
+ #Openmenu{
+width:1.562rem;
+display: block;
+padding: 0.0625rem 0.25rem;
+background-color: rgba(0, 0, 0, 0.468);
+position: fixed;
+top:0.625rem;
+left:0.312rem;
+color: white;
+border: 1px solid white;
+ }
+    }
