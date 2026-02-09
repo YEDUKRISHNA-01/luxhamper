@@ -374,6 +374,10 @@ button:hover{
     text-decoration: underline;
     margin-top: 0.60rem;
 }
+    img{
+        width:40vw;
+        height:auto;
+    }
 
 h1{
     font-size: 2rem;
@@ -398,3 +402,4 @@ border: 1px solid white;
  }
 
     }
+
