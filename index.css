@@ -154,6 +154,20 @@ a{
 ul{
     display:none ;
 }
+  .contactbtn{
+    display: block;
+    padding:0.375rem;
+    background:linear-gradient(to top, red,orange,rgb(255, 163, 33),gold); 
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 0.25rem;
+    margin: 0.62rem;
+    margin-left: 30vw;
+    transition: 0.2s ease-in;
+    border: 0.062rem solid white;
+    cursor: pointer;
+}
+
 
 #iconStart{
 display:block;
@@ -192,4 +206,5 @@ color: gold;
 #iconStart:hover{
     background-color: brown;
     transform: scale(1.05);
+
 }
