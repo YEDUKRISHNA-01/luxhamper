@@ -375,7 +375,7 @@ button:hover{
     margin-top: 0.60rem;
 }
     img{
-        width:40vw;
+        max-width:40vw;
         height:auto;
     }
 
@@ -402,4 +402,5 @@ border: 1px solid white;
  }
 
     }
+
 
